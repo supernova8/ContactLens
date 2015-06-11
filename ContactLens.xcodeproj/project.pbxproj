@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EBD0E531B29FC0C00525EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD0E521B29FC0C00525EBC /* main.m */; };
+		8EBD0E561B29FC0C00525EBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD0E551B29FC0C00525EBC /* AppDelegate.m */; };
+		8EBD0E591B29FC0C00525EBC /* ContactLens.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD0E571B29FC0C00525EBC /* ContactLens.xcdatamodeld */; };
+		8EBD0E5C1B29FC0C00525EBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD0E5B1B29FC0C00525EBC /* ViewController.m */; };
+		8EBD0E5F1B29FC0C00525EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD0E5D1B29FC0C00525EBC /* Main.storyboard */; };
+		8EBD0E611B29FC0C00525EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD0E601B29FC0C00525EBC /* Images.xcassets */; };
+		8EBD0E641B29FC0C00525EBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD0E621B29FC0C00525EBC /* LaunchScreen.xib */; };
+		8EBD0E701B29FC0C00525EBC /* ContactLensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD0E6F1B29FC0C00525EBC /* ContactLensTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EBD0E6A1B29FC0C00525EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBD0E451B29FC0C00525EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBD0E4C1B29FC0C00525EBC;
+			remoteInfo = ContactLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EBD0E4D1B29FC0C00525EBC /* ContactLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD0E511B29FC0C00525EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EBD0E521B29FC0C00525EBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EBD0E541B29FC0C00525EBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EBD0E551B29FC0C00525EBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EBD0E581B29FC0C00525EBC /* ContactLens.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactLens.xcdatamodel; sourceTree = "<group>"; };
+		8EBD0E5A1B29FC0C00525EBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EBD0E5B1B29FC0C00525EBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EBD0E5E1B29FC0C00525EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EBD0E601B29FC0C00525EBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EBD0E631B29FC0C00525EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8EBD0E691B29FC0C00525EBC /* ContactLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD0E6E1B29FC0C00525EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EBD0E6F1B29FC0C00525EBC /* ContactLensTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactLensTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EBD0E4A1B29FC0C00525EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD0E661B29FC0C00525EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EBD0E441B29FC0C00525EBC = {
+			isa = PBXGroup;
+			children = (
+				8EBD0E4F1B29FC0C00525EBC /* ContactLens */,
+				8EBD0E6C1B29FC0C00525EBC /* ContactLensTests */,
+				8EBD0E4E1B29FC0C00525EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBD0E4E1B29FC0C00525EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD0E4D1B29FC0C00525EBC /* ContactLens.app */,
+				8EBD0E691B29FC0C00525EBC /* ContactLensTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBD0E4F1B29FC0C00525EBC /* ContactLens */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD0E541B29FC0C00525EBC /* AppDelegate.h */,
+				8EBD0E551B29FC0C00525EBC /* AppDelegate.m */,
+				8EBD0E5A1B29FC0C00525EBC /* ViewController.h */,
+				8EBD0E5B1B29FC0C00525EBC /* ViewController.m */,
+				8EBD0E5D1B29FC0C00525EBC /* Main.storyboard */,
+				8EBD0E601B29FC0C00525EBC /* Images.xcassets */,
+				8EBD0E621B29FC0C00525EBC /* LaunchScreen.xib */,
+				8EBD0E571B29FC0C00525EBC /* ContactLens.xcdatamodeld */,
+				8EBD0E501B29FC0C00525EBC /* Supporting Files */,
+			);
+			path = ContactLens;
+			sourceTree = "<group>";
+		};
+		8EBD0E501B29FC0C00525EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD0E511B29FC0C00525EBC /* Info.plist */,
+				8EBD0E521B29FC0C00525EBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EBD0E6C1B29FC0C00525EBC /* ContactLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD0E6F1B29FC0C00525EBC /* ContactLensTests.m */,
+				8EBD0E6D1B29FC0C00525EBC /* Supporting Files */,
+			);
+			path = ContactLensTests;
+			sourceTree = "<group>";
+		};
+		8EBD0E6D1B29FC0C00525EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD0E6E1B29FC0C00525EBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EBD0E4C1B29FC0C00525EBC /* ContactLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD0E731B29FC0C00525EBC /* Build configuration list for PBXNativeTarget "ContactLens" */;
+			buildPhases = (
+				8EBD0E491B29FC0C00525EBC /* Sources */,
+				8EBD0E4A1B29FC0C00525EBC /* Frameworks */,
+				8EBD0E4B1B29FC0C00525EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactLens;
+			productName = ContactLens;
+			productReference = 8EBD0E4D1B29FC0C00525EBC /* ContactLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EBD0E681B29FC0C00525EBC /* ContactLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD0E761B29FC0C00525EBC /* Build configuration list for PBXNativeTarget "ContactLensTests" */;
+			buildPhases = (
+				8EBD0E651B29FC0C00525EBC /* Sources */,
+				8EBD0E661B29FC0C00525EBC /* Frameworks */,
+				8EBD0E671B29FC0C00525EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBD0E6B1B29FC0C00525EBC /* PBXTargetDependency */,
+			);
+			name = ContactLensTests;
+			productName = ContactLensTests;
+			productReference = 8EBD0E691B29FC0C00525EBC /* ContactLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EBD0E451B29FC0C00525EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = supernova8productions;
+				TargetAttributes = {
+					8EBD0E4C1B29FC0C00525EBC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8EBD0E681B29FC0C00525EBC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8EBD0E4C1B29FC0C00525EBC;
+					};
+				};
+			};
+			buildConfigurationList = 8EBD0E481B29FC0C00525EBC /* Build configuration list for PBXProject "ContactLens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EBD0E441B29FC0C00525EBC;
+			productRefGroup = 8EBD0E4E1B29FC0C00525EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EBD0E4C1B29FC0C00525EBC /* ContactLens */,
+				8EBD0E681B29FC0C00525EBC /* ContactLensTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EBD0E4B1B29FC0C00525EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBD0E5F1B29FC0C00525EBC /* Main.storyboard in Resources */,
+				8EBD0E641B29FC0C00525EBC /* LaunchScreen.xib in Resources */,
+				8EBD0E611B29FC0C00525EBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD0E671B29FC0C00525EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EBD0E491B29FC0C00525EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBD0E561B29FC0C00525EBC /* AppDelegate.m in Sources */,
+				8EBD0E531B29FC0C00525EBC /* main.m in Sources */,
+				8EBD0E5C1B29FC0C00525EBC /* ViewController.m in Sources */,
+				8EBD0E591B29FC0C00525EBC /* ContactLens.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD0E651B29FC0C00525EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBD0E701B29FC0C00525EBC /* ContactLensTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EBD0E6B1B29FC0C00525EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBD0E4C1B29FC0C00525EBC /* ContactLens */;
+			targetProxy = 8EBD0E6A1B29FC0C00525EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EBD0E5D1B29FC0C00525EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBD0E5E1B29FC0C00525EBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EBD0E621B29FC0C00525EBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBD0E631B29FC0C00525EBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EBD0E711B29FC0C00525EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EBD0E721B29FC0C00525EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EBD0E741B29FC0C00525EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContactLens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EBD0E751B29FC0C00525EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContactLens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EBD0E771B29FC0C00525EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContactLensTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactLens.app/ContactLens";
+			};
+			name = Debug;
+		};
+		8EBD0E781B29FC0C00525EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContactLensTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactLens.app/ContactLens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EBD0E481B29FC0C00525EBC /* Build configuration list for PBXProject "ContactLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD0E711B29FC0C00525EBC /* Debug */,
+				8EBD0E721B29FC0C00525EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBD0E731B29FC0C00525EBC /* Build configuration list for PBXNativeTarget "ContactLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD0E741B29FC0C00525EBC /* Debug */,
+				8EBD0E751B29FC0C00525EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EBD0E761B29FC0C00525EBC /* Build configuration list for PBXNativeTarget "ContactLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD0E771B29FC0C00525EBC /* Debug */,
+				8EBD0E781B29FC0C00525EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EBD0E571B29FC0C00525EBC /* ContactLens.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EBD0E581B29FC0C00525EBC /* ContactLens.xcdatamodel */,
+			);
+			currentVersion = 8EBD0E581B29FC0C00525EBC /* ContactLens.xcdatamodel */;
+			path = ContactLens.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EBD0E451B29FC0C00525EBC /* Project object */;
+}
