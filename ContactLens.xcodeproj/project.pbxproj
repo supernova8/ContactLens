@@ -15,6 +15,8 @@
 		8EBD0E611B29FC0C00525EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD0E601B29FC0C00525EBC /* Images.xcassets */; };
 		8EBD0E641B29FC0C00525EBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD0E621B29FC0C00525EBC /* LaunchScreen.xib */; };
 		8EBD0E701B29FC0C00525EBC /* ContactLensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD0E6F1B29FC0C00525EBC /* ContactLensTests.m */; };
+		8EBD0E871B2A2BCA00525EBC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD0E861B2A2BCA00525EBC /* DetailViewController.m */; };
+		8EBD0E8A1B2A30CD00525EBC /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD0E891B2A30CD00525EBC /* Contacts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		8EBD0E691B29FC0C00525EBC /* ContactLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBD0E6E1B29FC0C00525EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EBD0E6F1B29FC0C00525EBC /* ContactLensTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactLensTests.m; sourceTree = "<group>"; };
+		8EBD0E851B2A2BCA00525EBC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8EBD0E861B2A2BCA00525EBC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8EBD0E881B2A30CD00525EBC /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		8EBD0E891B2A30CD00525EBC /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +93,14 @@
 				8EBD0E551B29FC0C00525EBC /* AppDelegate.m */,
 				8EBD0E5A1B29FC0C00525EBC /* ViewController.h */,
 				8EBD0E5B1B29FC0C00525EBC /* ViewController.m */,
+				8EBD0E851B2A2BCA00525EBC /* DetailViewController.h */,
+				8EBD0E861B2A2BCA00525EBC /* DetailViewController.m */,
 				8EBD0E5D1B29FC0C00525EBC /* Main.storyboard */,
 				8EBD0E601B29FC0C00525EBC /* Images.xcassets */,
 				8EBD0E621B29FC0C00525EBC /* LaunchScreen.xib */,
 				8EBD0E571B29FC0C00525EBC /* ContactLens.xcdatamodeld */,
+				8EBD0E881B2A30CD00525EBC /* Contacts.h */,
+				8EBD0E891B2A30CD00525EBC /* Contacts.m */,
 				8EBD0E501B29FC0C00525EBC /* Supporting Files */,
 			);
 			path = ContactLens;
@@ -224,8 +234,10 @@
 			files = (
 				8EBD0E561B29FC0C00525EBC /* AppDelegate.m in Sources */,
 				8EBD0E531B29FC0C00525EBC /* main.m in Sources */,
+				8EBD0E8A1B2A30CD00525EBC /* Contacts.m in Sources */,
 				8EBD0E5C1B29FC0C00525EBC /* ViewController.m in Sources */,
 				8EBD0E591B29FC0C00525EBC /* ContactLens.xcdatamodeld in Sources */,
+				8EBD0E871B2A2BCA00525EBC /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

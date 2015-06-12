@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Contacts" representedClassName="Contacts" syncable="YES">
+        <attribute name="contactAddressCity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactAddressPostal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactAddressState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactAddressStreet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactAddressStreet2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactBirthdayDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="contactCategory" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="contactDateEntered" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="contactDateUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="contactEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactHomePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="contactLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactMobilePhone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Contacts" positionX="-36" positionY="9" width="128" height="270"/>
+    </elements>
 </model>
